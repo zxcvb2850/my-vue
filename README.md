@@ -4,10 +4,7 @@
 <img src="./screenshot/er.png" width="200" height = "200" alt="二维码" align=center />
 
 ## 效果图
-<img src="./screenshot/1.png" width="375" height="667" align=center />
-<img src="./screenshot/2.png" width="375" height="667" align=center />
-<img src="./screenshot/3.png" width="375" height="667" align=center />
-<img src="./screenshot/4.png" width="375" height="667" align=center />
+<img src="./screenshot/1.png" width="375" height="667" align=center /> <img src="./screenshot/2.png" width="375" height="667" align=center /> <img src="./screenshot/3.png" width="375" height="667" align=center /> <img src="./screenshot/4.png" width="375" height="667" align=center />
 
 ```$xslt
 # 克隆git仓库
