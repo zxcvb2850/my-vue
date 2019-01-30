@@ -79,7 +79,7 @@
       };
     },
     created() {
-      this.$http.get('/api/ratings').then((response) => {
+      this.$http.get('api/ratings').then((response) => {
         response = response.body;
         console.log(response)
         if (response.errno === ERR_OK) {

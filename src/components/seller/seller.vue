@@ -101,7 +101,7 @@
     },
     methods: {
       _initScroll(){
-        this.$http.get('/api/seller').then(() => {
+        this.$http.get('api/seller').then(() => {
           if (!this.scroll) {
             this.scroll = new BScroll(this.$refs.sellerWrapper, {
               click: true
