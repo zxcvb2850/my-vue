@@ -93,6 +93,7 @@
     created() {
       this.$http.get('/api/goods').then((response) => {
         response = response.body;
+        console.log( typeof response);
         if (response.errno === ERROR_OK) {
           this.goods = response.data;
           this.$nextTick(() => {

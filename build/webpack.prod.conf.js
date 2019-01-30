@@ -89,8 +89,17 @@ var webpackConfig = merge(baseWebpackConfig, {
         from: path.resolve(__dirname, '../static'),
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
+      },
+      {
+        /*
+        * copy custom mock api network
+        * 因为打包之后不需要api再起服务，所以偷个懒直接将api文件复制到打包的文件夹内
+        * */
+        from: path.resolve(__dirname, '../api'),
+        to: './api',
+        ignore: ['.*']
       }
-    ])
+    ]),
   ]
 })
 
